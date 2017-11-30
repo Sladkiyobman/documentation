@@ -1,0 +1,30 @@
+git init	инициализация git 
+git status	проверка статуса
+git add :/	добавить все файлы и папки
+git commit -m "name commit"	комментарий
+git log		показывает все изменения
+git remote add origin http://...	перенаправление с локального на удаленный репозиторий
+git push -u origin master переносит локадьные изменения на GitHub
+git pull origin master  проверка изменений в репозитории
+git diff HEAD просмотр отличиня изминений наших с другими
+git diff --staged просмотр только что сделаных изменений
+git branch clean_up	создание ветки clean_up
+git chechout clean_up	переключение на ветку clean_up
+git merge clean_up обьеденить ветку clean_up в ветке которой находимся
+git branch -d clean_up удалить ветку clean_up
+git push
+
+git status
+git add :/
+git status
+git commit -m "name commit"
+git push
+ 
+Создание git-a
+git init
+git add :/
+git commit -m "name commit"
+git remote add origin http://...
+git push -u origin master
+git push
+

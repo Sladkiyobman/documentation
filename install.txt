@@ -1,0 +1,64 @@
+----------------------------------------------------------------------------------------------
+		nodejs
+sudo apt-get update
+sudo apt-get install nodejs
+----------------------------------------------------------------------------------------------
+	RUBY С ПОМОЩЬЮ RVM
+
+sudo apt install curl
+sudo gpg2 --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
+curl -sSL https://get.rvm.io | bash -s stable
+source /etc/profile.d/rvm.sh
+rvm requirements
+rvm list known
+rvm install (версия руби)2.4
+rvm use (версия руби по умолчанию)2.4 --default
+ruby --version
+----------------------------------------------------------------------------------------------
+	rails 
+gem install rails
+rails -v
+	(устанока конкретной версии) gem install rails --version=4.2.5
+----------------------------------------------------------------------------------------------
+	Ruby Version Manager:Установка нескольких версий Rails
+
+1)rvm use 1.8.7 			(1.8.7 - версия руби)
+  rvm gemset create rails3		(rails3 - название gemset-a)
+	
+rvm gemset list				(список gemset-ов)
+2)rvm gemset use rails3			(выбор нужного gemset-a)
+3)gem install rails --version=4.2.5	(установка конкретной версии rails)
+gem list				(Посмотреть список gem’ов в текущем gemset’е )
+rvm 1.8.7@rails3		(сокращенная команда переключения на другую версию Ruby и rails)
+----------------------------------------------------------------------------------------------
+	postgresql
+sudo apt-get update
+sudo apt-get install postgresql postgresql-contrib
+----------------------------------------------------------------------------------------------
+	RubyMine
+Step 1:
+#apt-get update
+Step 2: Install Java and Java Repositories
+#add-apt-repository ppa:webupd8team/java
+#apt-get update
+#apt-get install oracle-java8-installer
+Step 3: Download Rubymine software
+#wget https://download.jetbrains.com/ruby/R...
+Step 4: Extract and Install
+#tar -xzf RubyMine-2016.1.2.tar.gz 
+#cd RubyMine/bin
+#./rubymine.sh
+register	http://idea.imsxm.com
+----------------------------------------------------------------------------------------------
+	git
+sudo apt update
+sudo apt install git
+----------------------------------------------------------------------------------------------
+	heroku
+$ wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
+----------------------------------------------------------------------------------------------
+
+
+
+
+
