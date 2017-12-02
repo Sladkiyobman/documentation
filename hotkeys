@@ -1,3 +1,7 @@
-форматирование кода Ctrl + Alt + I для линий Auto-indent
+Ctrl + Alt + I форматирование кода для линий Auto-indent
+--------------------------------------------------------------------------------------
+A server is already running. Check /home/..name/rprojects/railsapp/tmp/pids/server.pid.
+Exiting
 
-
+kill -9 $(lsof -i tcp:3000 -t)
+--------------------------------------------------------------------------------------
