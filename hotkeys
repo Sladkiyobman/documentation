@@ -5,3 +5,7 @@ Exiting
 
 kill -9 $(lsof -i tcp:3000 -t)
 --------------------------------------------------------------------------------------
+linux console:
+CTRL + SHIFT + T    --new tabs
+mkdir <foldername>  --Create New Directory
+
