@@ -26,5 +26,4 @@ git add :/
 git commit -m "name commit"
 git remote add origin http://...
 git push -u origin master
-git push
 
